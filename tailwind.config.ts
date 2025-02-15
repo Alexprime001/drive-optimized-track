@@ -26,15 +26,15 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#0F172A",
-          foreground: "#F8FAFC",
+          DEFAULT: "#1A365D", // Deep navy blue
+          foreground: "#FFFFFF",
         },
         secondary: {
           DEFAULT: "#F8FAFC",
-          foreground: "#0F172A",
+          foreground: "#1A365D",
         },
         accent: {
-          DEFAULT: "#3B82F6",
+          DEFAULT: "#3B82F6", // Vibrant blue
           foreground: "#FFFFFF",
         },
         success: {
@@ -43,7 +43,7 @@ export default {
         },
         muted: {
           DEFAULT: "#94A3B8",
-          foreground: "#0F172A",
+          foreground: "#1A365D",
         },
       },
       fontFamily: {
