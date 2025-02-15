@@ -64,11 +64,11 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 md:pt-40 md:pb-20 relative overflow-hidden">
+      <section className="min-h-[90vh] pt-32 pb-16 px-4 md:pt-40 md:pb-20 relative overflow-hidden flex items-center">
         <div 
-          className="absolute inset-0 z-0 bg-cover bg-center"
+          className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80')",
+            backgroundImage: "url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80')",
             filter: "brightness(0.1)"
           }}
         />
