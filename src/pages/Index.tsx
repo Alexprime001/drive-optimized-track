@@ -62,7 +62,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen font-sans">
       {/* Hero Section */}
       <section className="min-h-[90vh] pt-32 pb-16 px-4 md:pt-40 md:pb-20 relative overflow-hidden flex items-center">
         <div 
@@ -78,7 +78,7 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-4xl md:text-7xl font-bold text-white mb-6"
+            className="text-4xl md:text-7xl font-bold text-white mb-6 font-outfit"
           >
             Professional Driving Solutions
           </motion.h1>
@@ -101,7 +101,7 @@ const Index = () => {
               Get Started <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
-              Learn More
+              Schedule a Demo <ArrowRight className="ml-2 h-4 h-4" />
             </Button>
           </motion.div>
         </div>

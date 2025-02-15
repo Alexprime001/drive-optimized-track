@@ -26,7 +26,7 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#1A365D", // Deep navy blue
+          DEFAULT: "#1A365D",
           foreground: "#FFFFFF",
         },
         secondary: {
@@ -34,7 +34,7 @@ export default {
           foreground: "#1A365D",
         },
         accent: {
-          DEFAULT: "#3B82F6", // Vibrant blue
+          DEFAULT: "#3B82F6",
           foreground: "#FFFFFF",
         },
         success: {
@@ -47,7 +47,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Inter var", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        outfit: ["Outfit", "system-ui", "sans-serif"],
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
